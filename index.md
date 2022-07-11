@@ -25,7 +25,6 @@ def test(x):
 for x in range (2**100,9**100):
     print ("testing for ",x)
     test(x)
-**Bold** and _Italic_ and `Code` text
 
 ```
 ### Support or Contact
