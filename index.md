@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+![.](https://lh3.googleusercontent.com/6dmVdoX4b9Le2uhbwKNlaa_k_86ElqPyi_-kh6iCYCCBRTlfJCD0TKit5r3DqHIWOvAv=s170) 
 
-You can use the [editor on GitHub](https://github.com/Collatz-Testing/Python-Testcode/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Welcome To The Homepage Of Collatz Testing
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Currently `1267650600228229401496767514314` Numbers Are Tested
 
-### Markdown
+You can go to the [repository on GitHub](https://github.com/Collatz-Testing/Collatz-Testing) to discuss about Collatz Problem
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### How To Help
+
+You can run this code on python to help us and share the results
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
+def test(x):
+    if x==1:
+        print(x)
+        print("=================================================================================")
+    elif x%2==0:
+        print(x)
+        test(x/2)
+    else:
+        print(x)
+        test(3*x+1)
+for x in range (2**100,9**100):
+    print ("testing for ",x)
+    test(x)
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Collatz-Testing/Python-Testcode/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Want to help and contact us? Check out [discussions](https://github.com/Collatz-Testing/Collatz-Testing/discussions)
