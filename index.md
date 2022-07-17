@@ -1,4 +1,4 @@
-![.](https://lh3.googleusercontent.com/6dmVdoX4b9Le2uhbwKNlaa_k_86ElqPyi_-kh6iCYCCBRTlfJCD0TKit5r3DqHIWOvAv=s170) 
+![.](https://i.ibb.co/nr8JGLw/Ekran-g-r-nt-s-2022-07-11-143139-fococlipping-standard.png)
 
 ## Welcome To The Homepage Of Collatz Testing
 
